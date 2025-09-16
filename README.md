@@ -2,6 +2,10 @@
 
 This is a Machine Learning project deployed using Streamlit to predict whether a patient has diabetes based on medical inputs.
 
+click this to test:
+
+https://diabetespredicts.streamlit.app/
+
 ##  How to Run
 1. Clone the repository:
    ```bash

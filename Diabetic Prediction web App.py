@@ -64,9 +64,6 @@ def main():
             else:
                 st.error(diagnosis)
 
-        st.image("D:\ml deploy\diabetes-risk_orig.png",
-                 caption="Diabetes Risk Factors", use_container_width=True)
-
 
 
 # Run main

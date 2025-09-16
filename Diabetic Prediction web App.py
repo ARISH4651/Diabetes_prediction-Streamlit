@@ -8,9 +8,12 @@ Created on Mon Sep 15 22:13:43 2025
 import numpy as np
 import pickle
 import streamlit as st
+import os
 
-# Load saved model
-loaded_model = pickle.load(open('D:/ml deploy/trained_model.sav', 'rb'))
+
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, "trained_model.sav")
+loaded_model = pickle.load(open(model_path, "rb"))
 
 
 # Prediction function
